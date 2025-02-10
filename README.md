@@ -43,8 +43,8 @@ account = BankAccount(100)
 account.deposit(50)
 print(account.get_balance())  # Output: 150
 ```
--🔹 Private attributes (__balance) cannot be accessed directly.
--🔹 Methods (get_balance()) allow controlled access.
+- 🔹 Private attributes (__balance) cannot be accessed directly.
+- 🔹 Methods (get_balance()) allow controlled access.
 
 ### 🏗 3. Inheritance (Code Reusability)
 Inheritance allows a class (child class) to reuse properties & methods from another class (parent class).
