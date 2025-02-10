@@ -25,7 +25,7 @@ my_dog = Dog("Buddy", 3)
 my_dog.bark()  # Output: Woof!
 ```
 
-🔒 2. Encapsulation (Data Hiding)
+### 🔒 2. Encapsulation (Data Hiding)
 Encapsulation ensures that an object's data is protected by restricting direct access and allowing modification only through controlled methods.
 
 ```python
@@ -46,7 +46,7 @@ print(account.get_balance())  # Output: 150
 🔹 Private attributes (__balance) cannot be accessed directly.
 🔹 Methods (get_balance()) allow controlled access.
 
-🏗 3. Inheritance (Code Reusability)
+### 🏗 3. Inheritance (Code Reusability)
 Inheritance allows a class (child class) to reuse properties & methods from another class (parent class).
 
 ```python
@@ -69,7 +69,7 @@ print(my_dog.speak())  # Output: Woof!
 🔹 Multilevel Inheritance: Inheritance chain (A → B → C).
 🔹 Hierarchical Inheritance: One parent class, multiple child classes.
 
-🔁 4. Polymorphism (Many Forms)
+### 🔁 4. Polymorphism (Many Forms)
 Polymorphism allows the same method name to behave differently in different classes.
 
 ```python
@@ -86,7 +86,7 @@ for animal in animals:
 🔹 Method Overriding – Child class redefines a method from the parent class.
 🔹 Method Overloading – Not natively supported in Python but can be simulated using default arguments.
 
-🎭 5. Abstraction (Hiding Complexity)
+### 🎭 5. Abstraction (Hiding Complexity)
 Abstraction hides implementation details and only exposes the necessary features.
 ```python
 from abc import ABC, abstractmethod
