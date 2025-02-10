@@ -64,10 +64,10 @@ class Dog(Animal):  # Dog inherits from Animal
 my_dog = Dog("Buddy")
 print(my_dog.speak())  # Output: Woof!
 ```
-🔹 Single Inheritance: One class inherits from another.
-🔹 Multiple Inheritance: A class inherits from multiple parent classes.
-🔹 Multilevel Inheritance: Inheritance chain (A → B → C).
-🔹 Hierarchical Inheritance: One parent class, multiple child classes.
+- 🔹 Single Inheritance: One class inherits from another.
+- 🔹 Multiple Inheritance: A class inherits from multiple parent classes.
+- 🔹 Multilevel Inheritance: Inheritance chain (A → B → C).
+- 🔹 Hierarchical Inheritance: One parent class, multiple child classes.
 
 ### 🔁 4. Polymorphism (Many Forms)
 Polymorphism allows the same method name to behave differently in different classes.
@@ -83,8 +83,8 @@ animals = [Dog("Buddy"), Cat("Whiskers")]
 for animal in animals:
     print(animal.speak())  # Output: Woof! Meow!
 ```
-🔹 Method Overriding – Child class redefines a method from the parent class.\n
-🔹 Method Overloading – Not natively supported in Python but can be simulated using default arguments.
+- 🔹 Method Overriding – Child class redefines a method from the parent class.\n
+- 🔹 Method Overloading – Not natively supported in Python but can be simulated using default arguments.
 
 ### 🎭 5. Abstraction (Hiding Complexity)
 Abstraction hides implementation details and only exposes the necessary features.
@@ -107,13 +107,13 @@ my_circle = Circle(5)
 print(my_circle.area())  # Output: 78.5
 
 ```
-🔹 Abstract classes cannot be instantiated.
-🔹 Forces subclasses to implement the abstract method (area()).
+- 🔹 Abstract classes cannot be instantiated.
+- 🔹 Forces subclasses to implement the abstract method (area()).
 
 
-    ✅ Benefits of OOP
-    <div class="highlight">
-        ✔ <strong>Modularity</strong> – Code is divided into reusable classes.<br>
+  ###  ✅ Benefits of OOP
+  
+  ✔Modularity – Code is divided into reusable classes.<br>
         ✔ <strong>Reusability</strong> – Existing classes can be extended to new functionality.<br>
         ✔ <strong>Scalability</strong> – Code can be easily modified or extended.<br>
         ✔ <strong>Security</strong> – Encapsulation restricts unauthorized access.<br>
